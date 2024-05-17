@@ -1,0 +1,116 @@
+.left-section {
+    overflow: hidden;
+}
+
+.right-section {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.scrollable-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollable-images img {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.scrollable-images img.active {
+    transform: scale(1.1);
+}
+
+.login-section {
+    padding-left: 20px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #aaa;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: 10px;
+    padding-top: 20px; 
+}
+
+.form-control[type="tel"] {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: 10px;
+    padding-top: 20px; 
+    outline: none;
+}
+
+.btn-lg {
+    margin-top: 50px; 
+    background-color: #ff6f61 !important;
+    border-color: #ff6f61 !important;
+    color: #fff;
+    font-weight: bold !important;
+}
+
+
+
+.form-control:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none !important;
+}
+
+.form-group.focused .label {
+    top: 0;
+    font-size: 12px;
+    /* color: #007bff; */
+}
+
+.carousel-indicators [data-bs-target] {
+   
+    width: 10px !important;
+    height: 10px !important;
+    background-color: gray !important;
+    color: #ff6f61 !important;
+    border-radius: 50%;
+
+
+}
+.carousel-indicators .active {
+    width: 10px !important;
+    height: 10px !important;
+    color: #ff6f61 !important;
+    background-color: black !important;
+    border-radius: 50%;
+
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

@@ -1,0 +1,44 @@
+.main-container {
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.add-new-patient-btn {
+  color: #ff6f61;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.slot-card {
+  margin-top: 33px;
+}
+
+.slot-header {
+  background-color: #ff6f61;
+}
+
+.slot-body {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    font-size: 16px;
+  }
+
+  .add-new-patient-btn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    font-size: 14px;
+  }
+
+  .add-new-patient-btn {
+    font-size: 14px;
+  }
+}
+

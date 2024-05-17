@@ -1,0 +1,68 @@
+
+:root {
+    --border-width: 7px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sec-loading {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sec-loading .one {
+    height: 80px;
+    width: 80px;
+    border: var(--border-width) solid #ff6f61 !important;
+    transform: rotate(45deg);
+    border-radius: 0 50% 50% 50%;
+    position: relative;
+    animation: move 0.5s linear infinite alternate-reverse;
+  }
+  .sec-loading .one::before {
+    content: "";
+    position: absolute;
+    height: 55%;
+    width: 55%;
+    border-radius: 50%;
+    border: var(--border-width) solid transparent;
+    border-top-color:#ff6f61 !important;
+    border-bottom-color: #ff6f61 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 1s linear infinite;
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  @keyframes move {
+    to {
+      transform: translateY(15px) rotate(45deg);
+    }
+  }
+  
+.test-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out;
+}
+
+.test-description.show {
+    max-height: 500px; /* Adjust the value as needed */
+}
+
+.vertical-line {
+  margin-bottom: 10px;
+  padding-left: 6px;
+  border-left: 2px solid #ff6f61;
+}

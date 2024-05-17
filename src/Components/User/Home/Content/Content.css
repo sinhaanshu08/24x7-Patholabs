@@ -1,0 +1,91 @@
+.package-buttons {
+    display: flex;
+    /* justify-content: space-between; */
+    white-space: nowrap;
+    gap: 6px;
+}
+
+.package-button {
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #616161;
+    cursor: pointer;
+}
+
+/* .package-button:hover, */
+.package-button.active {
+    background-color: #757575;
+    color: #fff;
+    border-color: #757575;
+}
+
+.package-button:focus {
+    outline: none;
+}
+
+
+
+.search-bar {
+    position: relative;
+
+}
+
+.search-input {
+    padding-right: 40px !important;
+    /* Adjust padding to make space for the icon */
+    background-image: url('../../icons/search-Icon.svg');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    /* Adjust the position of the icon */
+
+}
+
+
+.discount-percentage-box {
+    border: 1px dashed #1aab2a;
+    padding: 6px; /* Adjust padding as needed */
+    display: inline-block; /* Ensures the border wraps around the content */
+    color:#1aab2a;
+    background-color: rgba(26, 171, 42, .05);
+    font-weight: bold;
+}
+.add-to-cart{
+    background-color: #ff6f61 !important;
+    border-color: #ff6f61 !important;
+    color: #fff;
+    font-weight: bold !important;
+}
+.go-to-cart{
+    background-color: #1aab2a !important;
+    border-color: #1aab2a !important;
+    color: #fff;
+    font-weight: bold !important;
+}
+.card-title,
+.card-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* .card:first-child {
+    background-color: #fff !important;
+
+} */
+.test-names-container {
+    max-height: 100px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+
+  .slick-arrow.slick-next:before {
+    content: url('../../icons/right-arrow.svg');
+  }
+  
+  .slick-arrow.slick-prev:before {
+    content: url('../../icons/left-arrow.svg');
+  }
+
+
+  

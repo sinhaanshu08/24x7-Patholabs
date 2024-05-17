@@ -1,0 +1,30 @@
+.online-offline-message {
+    position: fixed;
+    bottom: -50px; /* Initially hide it */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+    transition: bottom 0.5s ease; /* Apply transition effect */
+  }
+  
+  .online-offline-message p {
+    margin: 0;
+  }
+  
+  .online {
+    background-color: green; /* Online status color */
+    
+    color: white;
+    bottom: 0; /* Show it at the bottom */
+  }
+  
+  .offline {
+    background-color: black; /* Offline status color */
+    color: white;
+    bottom: 0; /* Show it at the bottom */
+  }
+  
+
+  

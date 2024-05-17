@@ -1,0 +1,51 @@
+/* styles.css */
+.bg-body-tertiary {
+    font-family: 'Arial', sans-serif; /* Example: Setting font family */
+    font-size: 20px; /* Example: Setting font size */
+    font-weight: 500; /* Example: Setting font weight */
+    color: black; /* Example: Setting text color */
+    /* Add any additional styling properties as needed */
+
+    
+  }
+
+.navbar {
+    background-color: #fff !important; /* Dark background color */
+  }
+  
+
+  
+  .nav-link-custom:hover {
+    color: #ff6f61 !important; /* Bittersweet text color on hover */
+    font-weight: bold; 
+
+  }
+  
+  
+  .nav-link-custom.active, .nav-link-custom:focus {
+    color: #ff6f61 !important; /* Bittersweet text color when link is active or focused */
+    font-weight: bold; 
+
+  }
+  
+  .logo{
+    /* color: #ff6f61; Dark color for text */
+    color: #ff6f61; /* Text color */
+    font-weight: bold; /* Bold font weight */
+    margin-left: 2rem; /* Adjust the margin as needed */
+    font-size: 1.8rem;  
+}
+/* .cart-badge{
+  position:absolute;
+  background: #ff6f61;
+  margin-top: 5px;
+  color: #fff;
+  top: 0;
+  font-size: 14px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px #333;
+  text-align: center;
+} */
